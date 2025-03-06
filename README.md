@@ -1,6 +1,6 @@
 📌 **Overview**
 
-This project implements a Dynamic Data-Driven Application System (DDDAS) for real-time drill data forecasting. The methodology involves Higher-Order Singular Value Decomposition (HOSVD) for dimensionality reduction, Gaussian Process Regression (GPR) for modeling intermittent sensor data, and Reverse Order Particle Filtering (ROPF) to estimate values from incomplete real-time sensor data. Two versions of this implementation are provided, with slight variations in the noise levels and resampling techniques in the ROPF process.
+This project implements a Dynamic Data-Driven Application System (DDDAS) for real-time drill data forecasting. The methodology involves Higher-Order Singular Value Decomposition (HOSVD) for dimensionality reduction, Gaussian Process Regression (GPR) for modeling intermittent sensor data, and Reverse Order Particle Filtering (ROPF) to estimate values from incomplete real-time sensor data. Two versions of this implementation are provided, with slight variations in the noise levels and resampling techniques in the ROPF process. The surrogate model with gaussian process regression is trained on high fidelity simulation data. Then the Reverse order particle filter is used to generate better real-time estimates from incomplete sensor observations.
 
 🚀 **Workflow**
 
