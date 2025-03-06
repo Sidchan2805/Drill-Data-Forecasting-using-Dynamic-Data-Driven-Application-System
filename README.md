@@ -5,8 +5,11 @@ This project implements a Dynamic Data-Driven Application System (DDDAS) for rea
 📌 **Pipeline**
 
 The three dimensions of the 3-d tensor are 
+
 1- Operating conditions- The different speeds(in RPM) on the top of the drill bit.
+
 2- Time- This dimension is the time for which the speed on the bottom and torque on the bottom of bit has been recorded
+
 3- Spatial points/ Predictors- The third dimension(depth) corresponds to the speed on bottom of drill bit and torque on the bottom of the drill bit
 
 
