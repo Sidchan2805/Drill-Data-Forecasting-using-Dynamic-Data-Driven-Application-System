@@ -3,6 +3,7 @@
 This project implements a Dynamic Data-Driven Application System (DDDAS) for real-time drill data forecasting. The methodology involves Higher-Order Singular Value Decomposition (HOSVD) for dimensionality reduction, Gaussian Process Regression (GPR) for modeling intermittent sensor data, and Reverse Order Particle Filtering (ROPF) to estimate values from incomplete real-time sensor data. Two versions of this implementation are provided, with slight variations in the noise levels and resampling techniques in the ROPF process. The surrogate model with gaussian process regression is trained on high fidelity simulation data. Then the Reverse order particle filter is used to generate better real-time estimates from incomplete sensor observations.
 
 📌 **Pipeline**
+
 The three dimensions of the 3-d tensor are 
 1- Operating conditions- The different speeds(in RPM) on the top of the drill bit.
 2- Time- This dimension is the time for which the speed on the bottom and torque on the bottom of bit has been recorded
